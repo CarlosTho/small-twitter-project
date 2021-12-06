@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: grey;
+}
+.content-column {
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto;
+  background-color: white;  
+}
+.second-content-column {
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto;
+  background-color: white; 
+}
+.hidden{
+  display: none;
+}
+.flex-title {
+  display: flex;
+}
+.title{
+  color:black;
+}
+.title:hover{
+  cursor: pointer;
+}
+.second-title:hover{
+  cursor: pointer;
+}
+.Bill-Gates-suggestion{
+  width:20px;
+padding-top: 5px;
+  margin-left: 280px;
+  cursor: pointer;
+}
+.view-account{
+  font-size: 12px;
+}
+.view-account:hover{
+  color: #319bf0;
+  cursor: pointer;
+}
+.header-text {
+  font-size: 16px;
+  padding: 10px;
+}
+.second-header-text{
+    font-size: 16px;
+  padding: 10px;
+}
+.title {
+  padding-left: 30px;
+}
+.fa-arrow-left {
+  padding: 0 15px;
+  color: white;
+  margin: auto;
+  color: #319bf0;
+}
+.fa-arrow-left:hover {
+  cursor: pointer;
+}
+.fa-check-circle {
+  color: #319bf0;
+}
+.tweetCount {
+  font-size: 14px;
+  color: darkgrey;
+}
+.background {
+  width: 600px;
+}
+.elon-musk {
+  width: 150px;
+  border-radius: 100px;
+  margin-left: 10px;
+  margin-top: -70px;
+  padding: 5px;
+  background-color: white;
+}
+.photo-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.following {
+  height: 40px;
+  padding: 0 20px;
+  background-color: #319bf0;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  margin: 10px 15px;
+}
+.follow{
+    height: 40px;
+  padding: 0 20px;
+  background-color: white;
+  color:#319bf0;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  margin: 10px 15px;
+  border: 1px solid #319bf0;
+}
+
+.main-profile {
+  margin: 5px 25px;
+  padding-bottom: 20px;
+}
+.profile-name {
+  font-size: 18px;
+  font-weight: 900;
+}
+.username {
+  font-size: 15px;
+}
+.join-date,
+.following-count,
+.follower-count {
+  margin-top: 12px;
+  font-size: 16px;
+}
+.following-count,
+.follower-count {
+  font-weight: 900;
+}
+.non-bold {
+  font-weight: 100;
+  color: #97a1a9;
+}
+.non-bold-number{
+    font-weight: 100;
+}
+.following-flex {
+  display: flex;
+}
+.follower-count {
+  padding: 0 30px;
+}
+/* FLEX Tweet Selectors */
+.tweet-selector {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+  font-size: 20px;
+}
+.main-flex{
+  display: flex;
+}
+.selector {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.big-selector {
+  font-weight: 600;
+  padding: 15px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selector:hover,
+.big-selector:hover {
+  background-color: #eaeaeb;
+  cursor: pointer;
+}
+.active-tweet {
+  color: #319bf0;
+  border-bottom: 2px solid #319bf0;
+}
+
+.tweet-div {
+  border-bottom: 1px solid #97a1a9; 
+  width: 100%;
+
+
+}
+.tweet-div-profile-container{
+  width:10%;
+  height:20;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tweet-div-profile {
+
+  margin-bottom: 30px;
+  width: 70%;
+  border-radius: 100px;
+  
+}
+
+.hidden{
+  display: none;
+}
+.tweet-div-flex {
+  display: flex; 
+}
+.details {
+
+  margin-top: 10px;
+  width: 80%;
+}
+.flex-details{
+  display: flex;
+  font-size: 14px;
+}
+.detail-check{
+    padding: 0 5px;
+}
+.tweet-timestamp{
+  padding: 0 5px;
+}
+.tweet-text{
+padding: 5px 0;
+}
+.click-ons{
+  font-size: 14px;
+  margin-top: 8px;
+  padding-bottom: 12px;
+display: flex;
+justify-content: space-between;
+}
+.fa-ellipsis-h{
+margin-left: 40px;
+margin-top: 10px;
+}
